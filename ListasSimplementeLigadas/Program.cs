@@ -11,14 +11,14 @@ string elementos = MiLista.Recorrer();
 Console.WriteLine(elementos);
 
 Console.WriteLine();
-Nodo encontrado = MiLista.Buscar(" TRES ");
+Nodo encontrado = MiLista.Buscar(" DOS ");
 Console.WriteLine(encontrado.Valor);
 
 Console.WriteLine();
-Nodo encontrado2 = MiLista.BuscarNodoAnterior(" DOS ");
+Nodo encontrado2 = MiLista.BuscarNodoAnterior(" CUATRO ");
 Console.WriteLine(encontrado2.Valor);
 
 Console.WriteLine();
-MiLista.Borrar(" DOS ");
+MiLista.Borrar(" TRES ");
 elementos = MiLista.Recorrer();
 Console.WriteLine(elementos);
